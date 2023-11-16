@@ -12,7 +12,7 @@ app = Flask(__name__)
 # inputs
 training_data = 'data/ListaFiltrada.csv'
 include = ["Nombres"]
-dependent_variable = ["Sexo"]
+dependent_variable = ["Sexo0"]
 
 model_directory = 'model'
 model_file_pipe = '%s/modelpip.pkl' % model_directory
