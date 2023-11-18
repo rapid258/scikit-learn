@@ -1,4 +1,4 @@
-# Flask API for scikit learn.
+# Flask API for scikit learn.0
 A Flask application that can serve predictions from a scikit-learn model..
 Reads a pickled sklearn model into memory when the Flask app is started and returns predictions through the /predict endpoint. 
 Any sklearn model can be used for prediction.
